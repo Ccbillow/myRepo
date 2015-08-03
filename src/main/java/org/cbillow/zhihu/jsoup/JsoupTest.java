@@ -60,15 +60,15 @@ public class JsoupTest {
 			bw = new BufferedWriter(new FileWriter(file)) ;
 			bw.write(results.toString());
 		} catch (IOException e) {
-			e.printStackTrace(); 
+			e.printStackTrace();
 		} finally {
 			try {
-				bw.close(); 
+				bw.close();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
 		}
-		
+
 	}
 	
 }
