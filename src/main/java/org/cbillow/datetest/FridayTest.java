@@ -9,7 +9,7 @@ import java.util.Calendar;
 public class FridayTest {
 
     public static void main(String[] args) {
-        Calendar c=Calendar.getInstance();
+        Calendar c = Calendar.getInstance();
         //创建对照表
         /*String[] mons={"一月","二月","三月","四月",
                 "五月","六月","七月","八月",
@@ -31,7 +31,7 @@ public class FridayTest {
 
     /**
      * 判断星期五
-     * @param c
+     * @param c 传入已经设置好日期的Calendar对象
      */
     private static void judgeFriday(Calendar c) {
         int week = c.get(Calendar.DAY_OF_WEEK);

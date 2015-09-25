@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0a310dc4-a9d9-4fdd-b180-f92e1c08b3b6" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/cbillow/datetest/DateExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/cbillow/datetest/FridayTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/cbillow/juc/future/CallableFutureTaskTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/cbillow/juc/future/CallableFutureTaskTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/cbillow/datetest/FridayTest.java" afterPath="$PROJECT_DIR$/src/main/java/org/cbillow/datetest/FridayTest.java" />
     </list>
     <ignored path="SimpleTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +30,9 @@
       <file leaf-file-name="FridayTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/cbillow/datetest/FridayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5519631">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.46423134">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,8 +82,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/cbillow/dianping/RecursiveTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cbillow/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cbillow/juc/future/CallableFutureTaskTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/cbillow/datetest/FridayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/cbillow/datetest/DateExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/cbillow/datetest/FridayTest.java" />
       </list>
     </option>
   </component>
@@ -254,7 +252,7 @@
       <recent name="org.cbillow.spider" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateExample">
+  <component name="RunManager" selected="Application.FridayTest">
     <configuration default="false" name="MiddlePointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.cbillow.test.MiddlePointTest" />
       <option name="VM_PARAMETERS" />
@@ -462,8 +460,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DateExample" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FridayTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FridayTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DateExample" />
         <item index="2" class="java.lang.String" itemvalue="Application.A" />
         <item index="3" class="java.lang.String" itemvalue="Application.MiddlePointTest (1)" />
         <item index="4" class="java.lang.String" itemvalue="Application.MiddlePointTest" />
@@ -511,7 +509,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17627402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="123" width="1080" height="529" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24956672" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -940,11 +938,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/cbillow/datetest/FridayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5519631">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.46423134">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
