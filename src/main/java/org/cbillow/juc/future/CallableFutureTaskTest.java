@@ -13,7 +13,7 @@ public class CallableFutureTaskTest {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newCachedThreadPool();
         Task task = new Task();
-        FutureTask<Integer> futureTask = new FutureTask<>(task);
+        FutureTask<Integer> futureTask = new FutureTask<Integer>(task);
         executor.submit(futureTask);
         executor.shutdown();
 
