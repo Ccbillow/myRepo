@@ -10,14 +10,16 @@ public class FridayTest {
 
     public static void main(String[] args) {
         Calendar c = Calendar.getInstance();
+        //设置年份，日期
+        c.set(2015, 0, 1);
+        judgeFriday(c);
+
+
         //创建对照表
         /*String[] mons={"一月","二月","三月","四月",
                 "五月","六月","七月","八月",
                 "九月","十月","十一月","十二月"};
         String[] weeks = {"", "星期日", "星期一", "星期二", "星期三月", "星期四月", "星期五", "星期六"};*/
-        //设置年份，日期
-        c.set(2015, 0, 1);
-        judgeFriday(c);
 
 //        int year=c.get(Calendar.YEAR);
 //        System.out.println(year);
