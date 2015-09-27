@@ -1,4 +1,4 @@
-package org.cbillow.datetest;
+package org.cbillow.ctest;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
