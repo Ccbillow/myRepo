@@ -5,7 +5,7 @@ import java.util.Calendar;
 /**
  * 打印本月日历
  */
-public class DateExample {
+public class CalendarExample {
     public static void main(String[] args) {
         Calendar c = Calendar.getInstance();
         c.set(Calendar.DATE, 1);
