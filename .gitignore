@@ -1,6 +1,6 @@
 .idea/workspace.xml
 target/classes
-cloudprint.iml
+SimpleTest.iml
 target/
 .idea
 *.class
