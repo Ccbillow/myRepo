@@ -1,4 +1,4 @@
-package org.cbillow.nio.nioOfTcp;
+package org.cbillow.nio.niooftcp;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

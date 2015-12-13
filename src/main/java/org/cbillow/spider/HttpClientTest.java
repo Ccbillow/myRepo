@@ -16,7 +16,7 @@ public class HttpClientTest {
 	private static HttpClient httpClient = new HttpClient() ;
 	
 	public static void main(String[] args) throws HttpException, IOException {
-		HttpClientTest.downloadPage("http://www.baidu.com") ;
+//		HttpClientTest.downloadPage("http://www.baidu.com") ;
 	}
 	
 	 /** 
