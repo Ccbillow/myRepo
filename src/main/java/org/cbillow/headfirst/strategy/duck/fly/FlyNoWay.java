@@ -1,4 +1,4 @@
-package org.cbillow.headfirst.oo.duck.test1.fly;
+package org.cbillow.headfirst.strategy.duck.fly;
 
 /**
  * Created by Cbillow on 15/12/13.

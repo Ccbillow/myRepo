@@ -1,7 +1,7 @@
-package org.cbillow.headfirst.oo.duck.test1;
+package org.cbillow.headfirst.strategy.duck;
 
-import org.cbillow.headfirst.oo.duck.test1.fly.FlyNoWay;
-import org.cbillow.headfirst.oo.duck.test1.quack.Quack;
+import org.cbillow.headfirst.strategy.duck.fly.FlyNoWay;
+import org.cbillow.headfirst.strategy.duck.quack.Quack;
 
 /**
  * Created by Cbillow on 15/12/13.

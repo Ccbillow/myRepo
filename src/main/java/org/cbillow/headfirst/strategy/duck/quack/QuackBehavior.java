@@ -1,4 +1,4 @@
-package org.cbillow.headfirst.oo.duck.test1.quack;
+package org.cbillow.headfirst.strategy.duck.quack;
 
 /**
  * Created by Cbillow on 15/12/13.
