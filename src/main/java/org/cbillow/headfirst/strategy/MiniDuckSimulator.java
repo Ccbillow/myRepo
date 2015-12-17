@@ -1,6 +1,6 @@
-package org.cbillow.headfirst.strategy.duck;
+package org.cbillow.headfirst.strategy;
 
-import org.cbillow.headfirst.strategy.duck.fly.FlyRocketPowered;
+import org.cbillow.headfirst.strategy.fly.FlyRocketPowered;
 import org.junit.Test;
 
 /**
