@@ -1,4 +1,4 @@
-package org.cbillow.nio.niooftcp;
+package org.cbillow.nio.tcp;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
