@@ -1,5 +1,6 @@
 package org.cbillow.headfirst.command;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,8 +15,17 @@ public class ProductManager {
 
     private List<Task> taskList;
 
-    public ProductManager(List<Task> taskList) {
-        this.taskList = taskList;
+    private List<Programmer> programmerList;
+
+    private int currentIndex;
+
+    public ProductManager(Programmer... programmers) {
+        super();
+        if (programmers == null || programmers.length == 0) {
+            throw new RuntimeException("产品经理手下没有程序员，任务分配不出去，无法正常工作！");
+        }
+        taskList = new ArrayList<Task>();
+        programmerList = Arrays.asList(programmers);
     }
 
     public void receive(Task task) {
@@ -29,6 +39,10 @@ public class ProductManager {
         }
         System.arraycopy(taskList.toArray(), TASK_NUMBER_IN_DAY > taskList.size() ? taskList.size() : TASK_NUMBER_IN_DAY, copy, 0, copy.length);
         taskList = Arrays.asList(copy);
+    }
+
+    public Programmer chooseProgrammer() {
+        return programmerList.get(currentIndex == programmerList.size() ? 0 : currentIndex++);
     }
 
     public void printTaskList() {
