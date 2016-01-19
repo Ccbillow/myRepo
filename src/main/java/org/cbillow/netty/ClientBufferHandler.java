@@ -13,8 +13,10 @@ import org.jboss.netty.channel.SimpleChannelHandler;
  */
 public class ClientBufferHandler extends SimpleChannelHandler {
 
+
     /**
      * 连接到服务端的时候发送信息
+     *
      * @param ctx
      * @param e
      * @throws Exception
@@ -33,6 +35,9 @@ public class ClientBufferHandler extends SimpleChannelHandler {
         String msgTwo = "I'm ";
         String msgThree = "client.";
 
+        /**
+         * 向服务器发送数据
+         */
         e.getChannel().write(tranStr2Buffer(msgOne));
         e.getChannel().write(tranStr2Buffer(msgTwo));
         e.getChannel().write(tranStr2Buffer(msgThree));

@@ -16,6 +16,7 @@ public class ServerBufferHandler extends SimpleChannelHandler {
 
     /**
      * 用于接收客户端消息，当有消息传来时触发
+     *
      * @param ctx
      * @param e
      * @throws Exception
@@ -24,8 +25,8 @@ public class ServerBufferHandler extends SimpleChannelHandler {
     public void messageReceived(ChannelHandlerContext ctx, MessageEvent e) throws Exception {
         ChannelBuffer buffer = (ChannelBuffer) e.getMessage();
         while (buffer.readableBytes() >= 5) {
-            ChannelBuffer bytes = buffer.readBytes(5);
-            System.out.println(bytes.toString(Charset.defaultCharset()));
+            ChannelBuffer bfTemp = buffer.readBytes(5);
+            System.out.println(bfTemp.toString(Charset.defaultCharset()));
         }
         System.out.println(buffer.toString(Charset.defaultCharset()));
     }
